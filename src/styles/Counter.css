@@ -2,23 +2,49 @@
     margin: 100px;
 }
 
+fieldset
+{
+  background-color:#CCC;
+  max-width:500px;
+  padding:16px;	
+}
+
 button {
     color: white;
     background-color: teal;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-inline: 20px;
+    padding-inline: 60px;
     border-color: wheat;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
 input{
+    margin-right: 85px;
     background-color: teal;
     color: white;
     border-color: wheat;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    width: 310px;
 }
 
 body{
+    margin-top: 5%;
     color: white;
     background-color: teal;
-    text-align: center;
+}
+
+span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-inline: 20px;
 }
