@@ -11,8 +11,10 @@ function MultipleCounter(){
 
     return(
         <div>
-            <CounterSizeGenerator updateCounterSize = {updateCounterSize}></CounterSizeGenerator>
-            <CounterGroup counterSize = {counterSize}></CounterGroup>
+            <fieldset>
+                <CounterSizeGenerator updateCounterSize = {updateCounterSize}></CounterSizeGenerator>
+                <CounterGroup counterSize = {counterSize}></CounterGroup>
+            </fieldset>
         </div>
     );
 }

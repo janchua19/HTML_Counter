@@ -2,11 +2,12 @@
     margin: 100px;
 }
 
-fieldset
-{
-  background-color:#CCC;
+fieldset{
+  background-color:teal;
   max-width:500px;
   padding:16px;	
+  margin-left: 35%;
+  border: teal;
 }
 
 button {
@@ -40,7 +41,8 @@ input{
 body{
     margin-top: 5%;
     color: white;
-    background-color: teal;
+    background-color: turquoise;
+    position: relative;
 }
 
 span{
